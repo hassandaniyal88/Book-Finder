@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": [ "vite/client", "vue" ],
+    "allowJs": true
+  },
+  "include": [ "src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue", "src/**/*.js" ]
+}

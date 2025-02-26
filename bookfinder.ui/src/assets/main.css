@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    @apply max-w-5xl mx-auto p-8 font-normal;
+}
+
+a {
+    @apply text-green-500 transition duration-300 p-1;
+}
+
+@media (hover: hover) {
+    a:hover {
+        @apply bg-green-500/20;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        @apply flex items-center;
+    }
+
+    #app {
+        @apply grid grid-cols-2 px-8;
+    }
+}
